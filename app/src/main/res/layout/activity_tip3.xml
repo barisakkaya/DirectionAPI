@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADC7DC"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Tip3Activity">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="336dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="75dp"
+        android:gravity="center"
+        android:text="Aşağıdan tarih seçimini yapabilirsiniz..."
+        android:textColor="#A81818"
+        android:textSize="26sp"
+        />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="336dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="28dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="151dp"
+        android:background="#632121"
+        android:backgroundTint="#875A5A"
+        android:hapticFeedbackEnabled="false"
+        android:onClick="sonuclariGoster2"
+        android:text="Sonuc"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        tools:ignore="OnClick" />
+
+
+</LinearLayout>

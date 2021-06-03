@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "750444158103",
+    "project_id": "mobilsorgular-fb0b7",
+    "storage_bucket": "mobilsorgular-fb0b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:750444158103:android:997a0a0991a1bcebe7ddd2",
+        "android_client_info": {
+          "package_name": "com.example.mobilsorgular"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "750444158103-bic8giam49rf3javjea38f3di3kccr8k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3scaswt7-cBREdqgJ6JGbuIUWl3drh8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "750444158103-bic8giam49rf3javjea38f3di3kccr8k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

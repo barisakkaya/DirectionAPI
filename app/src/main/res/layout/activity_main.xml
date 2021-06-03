@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADC7DC"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MapsActivity">
+
+    <TextView
+        android:layout_width="336dp"
+        android:layout_height="100dp"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:text="Yapmak istediğiniz sorguyu seçin: "
+        android:textAlignment="center"
+        android:layout_marginBottom="60dp"
+        ></TextView>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_background"
+        android:onClick="tipBirSorguYap"
+        android:text="TİP 1"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        app:rippleColor="#C38787"
+        tools:ignore="OnClick"></Button>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_background"
+        android:onClick="tipIkiSorguYap"
+        android:text="TİP 2"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        tools:ignore="OnClick"></Button>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_background"
+        android:onClick="tipUcSorguYap"
+        android:text="TİP 3"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        tools:ignore="OnClick"></Button>
+
+
+</LinearLayout>
